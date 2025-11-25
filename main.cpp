@@ -184,7 +184,7 @@ void printAboutTheTeamAndThanks() {
 
     printCentered("Special thanks to all the open-source tools and libraries that powered this project!", terminalWidth);
     printCentered("Heartfelt gratitude to our professors and peers for their valuable feedback and guidance.", terminalWidth);
-    printCentered("Explore our project on GitHub: " + string(BOLD) + string(CYAN) + "https://github.com/Basem3sam/HarmonyHub" + RESET, terminalWidth);
+    printCentered("Explore our project on GitHub: " + string(BOLD) + string(CYAN) + "https://github.com/NhatPahm2K5/PlayList_Manager.git" + RESET, terminalWidth);
     cout << endl;
 
     printCentered(string(GREEN) + "=====================================================" + RESET, terminalWidth);
@@ -710,3 +710,4 @@ int main() {
 
     return 0;
 }
+
