@@ -671,7 +671,7 @@ int main() {
     cout << GREEN << "Let's start organizing your playlist and music library." << RESET << endl;
 
     cout << "\n" << MAGENTA << "Check out the project on GitHub: " << RESET;
-    cout << CYAN << "https://github.com/Basem3sam/HarmonyHub---Playlist-Manager" << RESET << endl;
+    cout << CYAN << "https://github.com/NhatPahm2K5/PlayList_Manager.git" << RESET << endl;
 
     do {
         generalMenu();
@@ -710,4 +710,5 @@ int main() {
 
     return 0;
 }
+
 
