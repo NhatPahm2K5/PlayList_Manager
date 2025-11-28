@@ -69,10 +69,41 @@ This README focuses on the real implementation details of the repository (BST + 
 
 ### Build (Windows PowerShell example)
 
-1. Open PowerShell and go to the project folder (where `main.cpp` is):
+1. Open PowerShell and navigate to the project folder:
    ```powershell
-   cd 'C:\Users\Pc\Downloads\PlayList_Manager-main\PlayList_Manager-main'
+   cd 'C:\Users\Pc\Documents\GitHub\PlayList_Manager'
+   ```
 
+2. Compile with g++ (requires GCC/MinGW installed):
+   ```powershell
+   g++ -std=c++17 -O2 -Wall main.cpp -o PlayList_Manager.exe
+   ```
+
+3. Run the executable:
+   ```powershell
+   .\PlayList_Manager.exe
+   ```
+
+### Build (Alternative: MSVC/Visual Studio)
+
+If you have Visual Studio installed, use the MSVC compiler:
+
+```powershell
+cl /std:latest /O2 main.cpp /Fe:PlayList_Manager.exe
+.\PlayList_Manager.exe
+```
+
+### Running the Program
+
+Once built, the executable `PlayList_Manager.exe` will launch the HarmonyHub interactive menu where you can:
+
+- Add songs to the library
+- Create and manage playlists
+- Search, sort, and shuffle songs
+- Mark favorites and view statistics
+- Save and load playlists from files
+
+---
 
 ## Acknowledgments
 
