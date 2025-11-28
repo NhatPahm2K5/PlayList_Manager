@@ -39,7 +39,7 @@ class Song
         throw invalid_argument("Invalid album");
       }
       if (!isValidYear(year)) {
-        cout << "Error: Invalid year. It must be between 1900 and 2024." << endl;
+        cout << "Error: Invalid year. It must be between 1900 and 2025." << endl;
         throw invalid_argument("Invalid year");
       }
       if (!isValidDuration(duration)) {
@@ -64,12 +64,13 @@ class Song
     }
 
     static bool isValidYear(int year) {
-      int currentYear = 2024;
+      int currentYear = 2025;
       return (year >= 1900 && year <= currentYear);
     } 
 
     static bool isValidDuration(double duration) {
       return duration > 0;
     }
+
 
 };
